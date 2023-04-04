@@ -1,0 +1,124 @@
+@media only screen and (max-width:600px){
+	.barranav{
+		justify-content: space-between;
+		padding: 0px 15px;
+	}
+	.barranav .buscadores{
+		display: none;
+	}
+	.barranav .barra{
+		display: flex;
+		font-size: 30px;
+	}
+	.parte1{
+		background-image: url(../parte1/fondomovil.png);
+		padding: 31% 0%;
+	}
+	.parte1 a{
+		display: none;
+	}
+	.parte2{
+		flex-wrap: wrap;
+	}
+	.parte2 .imagenparte2{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.parte2 .imagenparte2 img{
+		width: 80%;
+	}
+	.parte2 .textoparte2{
+		width: 100%;
+	}
+	.parte2 .textoparte2 p{
+		width: 94%;
+	}
+	.parte3{
+		flex-wrap: wrap;
+	}
+	.parte3 .imagenparte3{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	.parte3 .imagenparte3 img{
+		width: 80%;
+		padding: 8% 0%;
+	}
+	.parte3 .textoparte3{
+		width: 100%;
+	}
+	.parte3 .textoparte3 p{
+		width: 94%;
+	}
+
+	
+	.parte4 .imagenesparte4{
+		display: none;
+	}
+	.parte4 .imagenesmovil{
+		display: block;
+		display: flex;
+		justify-content: center;
+		gap: 38px 13px;
+		flex-wrap: wrap;
+	}
+	.parte4 .imagenesmovil .imagen1p4, .parte4 .imagenesmovil .imagen2p4, .parte4 .imagenesmovil .imagen3p4, .parte4 .imagenesmovil .imagen4p4{
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.parte4 .imagenesmovil .imagen1p4 img{
+		width: 100%;
+	}
+	.parte4 .imagenesmovil .imagen2p4 img{
+		width: 100%;
+	}
+	.parte4 .imagenesmovil .imagen3p4 img{
+		width: 100%;
+	}
+	.parte4 .imagenesmovil .imagen4p4 img{
+		width: 100%;
+	}
+	.parte4 .imagenesmovil .imagen1p4 p, .parte4 .imagenesmovil .imagen2p4 p, .parte4 .imagenesmovil .imagen3p4 p, .parte4 .imagenesmovil .imagen4p4 p{
+		width: 80%;
+		text-align: center;
+		margin-top: -26%;
+		font-size: 13px;
+		background: rgba(0, 0, 0, 0.43);
+		padding: 0% 5%;
+		color: white;
+	}
+	
+
+	.parte5 .formulario{
+		width: 70%;
+	}
+	.parte5 .formulario form{
+		width:80%;
+	}
+	.parte5 .textoparte5{
+		display: none;
+	}
+
+	.piedepagina{
+		flex-wrap: wrap;
+	}
+	.piedepagina .titulopie{
+		width: 100%;
+	}
+	.piedepagina .titulopie h2{
+		text-align: center;
+	}
+	.piedepagina .p1, .piedepagina .p2, .piedepagina .p3, .piedepagina .p4{
+		width: 45%;
+		text-align: center;
+	}
+	footer .iconos{
+		justify-content: center;
+		font-size: 40px;
+	}
+}

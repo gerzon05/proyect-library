@@ -1,0 +1,290 @@
+body{
+	margin:0%;
+}
+*{
+	font-family: 'Work Sans', sans-serif;
+}
+.barranav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: black;
+	color: white;
+}
+.barranav .barra{
+	display: none;
+}
+.barranav .buscadores ul{
+	display: flex;
+	list-style: none;
+	gap: 20px;
+}
+.barranav .buscadores ul a{
+	text-decoration: none;
+	color: white;
+}
+.barranav .buscadores ul a:hover{
+	color: #1D30D6 ;
+}
+
+.parte1{
+	background-image: url(../parte1/fondo.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	display: flex;
+	padding: 20% 0%;
+	justify-content: center;
+    align-items: center;
+}
+
+.parte1 a{
+	text-decoration: none;
+	color:white;
+}
+
+.parte1 a .boton{
+	background: black;
+	padding: 20px 55px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.parte1 a .boton{
+    animation-name: botonp1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes botonp1 {
+	0% {left: 0px;top: 0px;}
+	25% {left: 10px;top: 0px;}
+	50% {left: 10px;top: 10px;}
+	75% {left: 0px;top: 10px;}
+	100% {left: 0px;top: 0px;}
+}
+
+.parte2{
+	padding: 10% 0%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parte2 .imagenparte2{
+	width: 50%;
+	text-align: center;
+}
+.parte2 .imagenparte2 img{
+	width: 70%;
+}
+.parte2 .textoparte2{
+	width: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.parte2 .textoparte2 h2{
+	font-size: 30px;
+}
+.parte2 .textoparte2 p{
+	width: 80%;
+	font-weight: bold;
+}
+.parte2 .textoparte2 a {
+	text-decoration: none;
+}
+.parte2 .textoparte2 a botton{
+	padding: 10px 30px;
+	background: black;
+	color: white;
+	border-radius: 20px;
+}
+.parte2 .textoparte2 a botton{
+    animation-name: botonp2;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes botonp2 {
+	0% {left: 0px;top: 0px;}
+	25% {left: 10px;top: 0px;}
+	50% {left: 10px;top: 0px;}
+	75% {left: 0px;top: 0px;}
+	100% {left: 0px;top: 0px;}
+}
+.parte3{
+    display: flex;
+    background: black;
+    color: white;
+    padding: 10% 0%;
+    justify-content: center;
+    align-items: center;
+}
+.parte3 .imagenparte3{
+	width: 50%;
+	text-align: center;
+}
+.parte3 .imagenparte3 img{
+	width: 70%;
+}
+.parte3 .textoparte3{
+	width: 50%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.parte3 .textoparte3 h2{
+	font-size: 30px;
+}
+.parte3 .textoparte3 p{
+	width: 80%;
+	font-weight: bold;
+}
+.parte3 .textoparte3 a {
+	text-decoration: none;
+}
+.parte3 .textoparte3 a botton{
+	padding: 10px 30px;
+	background: white;
+	color: black;
+	border-radius: 20px;
+}
+.parte3 .textoparte3 a botton{
+    animation-name: botonp3;
+    animation-duration: .5s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes botonp3 {
+	0% {left: 0px;top: 0px;}
+	25% {left: 10px;top: 0px;}
+	50% {left: 10px;top: 0px;}
+	75% {left: 0px;top: 0px;}
+	100% {left: 0px;top: 0px;}
+}
+
+.parte4{
+	padding: 6% 0%;
+	color:black;
+}
+.parte4 .tituloparte4{
+	display: flex;
+	justify-content: center;
+}
+.parte4 .imagenesparte4{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.parte4 .imagenesparte4 .imagen1p4, .parte4 .imagenesparte4 .imagen2p4, .parte4 .imagenesparte4 .imagen3p4{
+	width: 30%;
+}
+.parte4 .imagenesparte4 .imagen1p4 img,.parte4 .imagenesparte4 .imagen2p4 img, .parte4 .imagenesparte4 .imagen3p4 img{
+	width: 100%;
+}
+.parte4 .imagenesparte4 .imagen1p4 p{
+	width: 54%;
+    margin-top: -29%;
+    transform: rotate(-8deg);
+    text-align: center;
+    color: white;
+    padding: 0% 25%;
+}
+.parte4 .imagenesparte4 .imagen2p4 p{
+	width: 54%;
+    margin-top: -29%;
+    transform: rotate(9deg);
+    text-align: center;
+    color: white;
+    padding: 0% 22%;
+}
+.parte4 .imagenesparte4 .imagen3p4 p{
+	width: 54%;
+    margin-top: -29%;
+    transform: rotate(6deg);
+    text-align: center;
+    color: white;
+    padding: 0% 22%;
+}
+.parte4 .imagenesmovil{
+	display: none;
+}
+
+.parte5{
+	background: black;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+    padding: 3% 0%;
+}
+.parte5 .formulario{
+    width: 27%;
+    background: #02115F;
+    border-radius: 20px;
+    padding: 5% 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parte5 .formulario form input{
+	width: 100%;
+    height: 30px;
+    border-radius: 10px 0px 10px 0px;
+}
+.parte5 .formulario form .comentar{
+	padding-bottom: 50px;
+}
+.parte5 .formulario h4{
+	text-align: center;
+}
+.parte5 .formulario form{
+	width: 75%;
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.parte5 .textoparte5{
+	color: white;
+	width: 27%;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.parte5 .formulario form a{
+	text-decoration: none;
+}
+.parte5 .formulario form a botton{
+	color: black;
+    background: white;
+    padding: 10% 40%;
+	margin-left: -40%;
+    border-radius: 25px;
+}
+
+footer{
+	padding: 3% 0%;
+}
+footer .piedepagina{
+	display: flex;
+	justify-content: center;
+	gap: 10%;
+}
+footer .iconos{
+	width: 90%;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+	gap: 2%;
+	padding-top: 4%;
+}
+
+.final{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: .5% 0%;
+}
